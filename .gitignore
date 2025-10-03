@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.env
+*.pyc
+
+# Node
+node_modules/
+.next/
+out/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+Backend/Vraj/.env
+Backend/Aadi/journal_results.json
+Backend/Aadi/format.json
+Backend/Aadi/__pycache__/
+Backend/Vraj/__pycache__/
+Frontend/.next/
+Frontend/node_modules/
