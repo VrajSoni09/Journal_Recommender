@@ -18,7 +18,7 @@ export default function UploadButton({ onUpload }: UploadButtonProps) {
     }
   };
 
-  const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
+  const handleDrop = (e: React.DragEvent<HTMLLabelElement>) => {
     e.preventDefault();
     setIsDragging(false);
     const file = e.dataTransfer.files?.[0];
@@ -27,7 +27,7 @@ export default function UploadButton({ onUpload }: UploadButtonProps) {
     }
   };
 
-  const handleDragOver = (e: React.DragEvent<HTMLDivElement>) => {
+  const handleDragOver = (e: React.DragEvent<HTMLLabelElement>) => {
     e.preventDefault();
     setIsDragging(true);
   };
