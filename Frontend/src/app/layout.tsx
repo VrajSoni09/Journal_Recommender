@@ -3,8 +3,8 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "ResearchHub - Find the Perfect Journal",
-  description: "AI-powered journal recommendation system for researchers",
+  title: "Multi-Agent Fake-News Detection Platform",
+  description: "AI-powered fake news detection with explainable results",
 }
 
 export default function RootLayout({
@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="dark">
+      <body className="bg-slate-950 text-foreground antialiased">
         {children}
       </body>
     </html>
